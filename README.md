@@ -18,8 +18,10 @@ git clone https://github.com/myokoym/cursorcommands .cursor/commands/my
 
 例：
 ```
-/commit-atomic [commit-message]
+/my/commit-atomic [commit-message]
 ```
+
+**注意**: サブディレクトリ内のコマンドは、ディレクトリ名を含むパスで実行されます。
 
 ## ライセンス
 
