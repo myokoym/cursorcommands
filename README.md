@@ -8,6 +8,9 @@
 
 ## インストール
 
+任意の場所にクローンしてください。`.cursor/commands/`配下に配置すると、Cursorのコマンドとして認識されます。
+
+例：
 ```bash
 git clone https://github.com/myokoym/cursorcommands .cursor/commands/my
 ```
@@ -16,10 +19,10 @@ git clone https://github.com/myokoym/cursorcommands .cursor/commands/my
 
 これらのコマンドファイルは、Cursorのコマンドパレットから実行できます。
 
-例：
-```
-/my/commit-atomic [commit-message]
-```
+インストール場所に応じて、コマンド名が変わります：
+
+- `.cursor/commands/my/`にインストールした場合: `/my/commit-atomic [commit-message]`
+- `.cursor/commands/`直下にインストールした場合: `/commit-atomic [commit-message]`
 
 **注意**: サブディレクトリ内のコマンドは、ディレクトリ名を含むパスで実行されます。
 
